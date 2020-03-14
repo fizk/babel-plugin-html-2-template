@@ -1,21 +1,19 @@
 {
-  "name": "html2template",
+  "name": "babel-plugin-html-2-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convert import into a document fragment template DOM Node",
   "main": "src/index.js",
+  "repository": "fizk/babel-plugin-html-2-template",
   "files": [
     "src"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@babel/generator": "^7.8.8",
-    "@babel/parser": "^7.8.8",
-    "@babel/traverse": "^7.8.6",
-    "@babel/types": "^7.8.7"
-  }
+  "keywords": [
+    "babel",
+    "web-components"
+  ],
+  "author": "einar.valur <fizk78@gmail.com>",
+  "license": "ISC"
 }
