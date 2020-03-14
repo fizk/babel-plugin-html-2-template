@@ -15,6 +15,11 @@ template.innerHTML = `...content of template.html...`;
 Getting tired of having templates for WebComponents as strings, and not having
 code-completion in my IDE.
 
+## Install
+```
+$ npm i https://github.com/fizk/babel-plugin-html-2-template
+```
+
 ## Usage:
 Where every you define your Babel plug-ins...
 ```json
